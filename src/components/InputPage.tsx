@@ -419,12 +419,12 @@ export default function InputPage({ onSubmit, initialInput }: InputPageProps) {
         </motion.div>
       </div>
 
-      <div className="text-center text-[10px] text-slate-400 mt-8 relative z-10 flex items-center justify-center gap-3">
-        <span>© 2026 재개발 투자 분석기</span>
-        <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
-        <span>v1.0 Live Platform Engine</span>
-        
-      </div>
+      <footer className="mt-[80px] pb-12 text-center text-[13px] text-[#888] leading-relaxed relative z-10 w-full">
+        <p>© 2026 Redevelopment Analysis</p>
+        <p>Developed by 임유은</p>
+        <p>Contact: youeun0521@gmail.com</p>
+        <p>Built with Next.js</p>
+      </footer>
     </div>
   );
 }

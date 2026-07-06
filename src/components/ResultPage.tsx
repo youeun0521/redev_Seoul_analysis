@@ -232,7 +232,7 @@ export default function ResultPage({ input, onBack, onSelectRegion }: ResultPage
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold"
           >
             <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse" />
-            최첨단 투자 사업성 평가 리포트
+            투자 사업성 평가 리포트
           </motion.div>
 
           <motion.h2
@@ -762,11 +762,11 @@ export default function ResultPage({ input, onBack, onSelectRegion }: ResultPage
       </section>
 
       {/* Footer copyright */}
-      <footer className="bg-slate-100 py-12 text-center text-slate-500 border-t border-slate-200 text-xs space-y-2">
-        <p>© 2026 재개발 투자 시뮬레이션 시스템 | 실시간 시뮬레이터 v1.0</p>
-        <p className="max-w-md mx-auto text-[10px] text-slate-400">
-          본 결과물은 입력된 설정 조건에 의거한 모의 시뮬레이션 결과로 실제 인허가 과정, 추가분담금 변동 및 세법 적용 등에 따라 실제 수익과 차이가 발생할 수 있습니다.
-        </p>
+      <footer className="mt-[80px] pb-12 text-center text-[13px] text-[#888] leading-relaxed relative z-10 w-full">
+        <p>© 2026 Redevelopment Analysis</p>
+        <p>Developed by 임유은</p>
+        <p>Contact: youeun0521@gmail.com</p>
+        <p>Built with Next.js</p>
       </footer>
     </div>
   );
