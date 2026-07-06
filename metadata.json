@@ -1,0 +1,6 @@
+{
+  "name": "재개발 투자 분석기",
+  "description": "재개발 구역별 사업성과 가치 분석 및 개인 맞춤형 대출 금리와 투자금 대비 수익성 예측 분석기",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
